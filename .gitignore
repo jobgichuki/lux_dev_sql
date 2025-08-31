@@ -1,0 +1,30 @@
+# OS/system files
+.DS_Store
+Thumbs.db
+
+# Python cache (if used)
+__pycache__/
+*.pyc
+
+# Virtual env + configs
+venv/
+.env
+*.env
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Large raw CSVs (keep samples)
+data/raw/
+*.csv
+!data/samples/*.csv
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+*.swp
+
+
