@@ -17,9 +17,6 @@ venv/
 *.sqlite3
 
 # Large raw CSVs (keep samples)
-data/raw/
-*.csv
-!data/samples/*.csv
 
 # Logs and temp files
 *.log
